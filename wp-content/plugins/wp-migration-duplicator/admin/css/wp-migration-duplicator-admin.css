@@ -1,0 +1,115 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wf-tab-head{ margin-right:0px; margin-top:20px; clear:both;}
+.wf-tab-container{ padding:15px; background:#fff; box-shadow:0px 2px 2px #ccc; float:left; box-sizing:border-box; width:100%; height:auto;}
+.wf-tab-head .nav-tab-active{ background: #fff; border-bottom: solid 1px #fff; }
+.wf-tab-head .nav-tab:focus{ box-shadow:none;}
+.wf-tab-content{ display:none; float:left; width:100%; height:auto; }
+.wf_sub_tab_container{float:left; width:100%; height:auto;}
+.wf_sub_tab{ display:inline-block; margin:0px;}
+.wf_sub_tab li{ display:inline-block; border-left: solid 1px #ccc; padding:3px 10px; cursor: pointer;}
+.wf_sub_tab_content{ display: none; float:left; width:100%; height:auto; }
+.notify_msg{ position:fixed; width:300px; padding:15px; color:#fff; right:60px; top:0px; opacity:0; box-shadow:0px 2px 2px #333; border-radius:5px; z-index:1000000000;}
+
+.wf_form_help{ color:#666; font-style: italic; font-weight:400; font-size:12px; display:inline-block; width:100%; margin-top:10px; }
+.wf-plugin-toolbar {
+	height: 40px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.wf-plugin-toolbar .left {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.wf-plugin-toolbar .left img {
+	vertical-align: text-bottom;
+	margin-right: 10px;
+}
+.wf-plugin-toolbar .right {
+	float: right;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+.wf-plugin-toolbar.top {
+	margin-bottom: -5px;
+}
+.wf-plugin-toolbar.bottom {
+	margin-top: 12px;
+    background: #f5f5f5;
+    border-top: 1px solid #ddd;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    padding:15px;
+}
+.wf-plugin-toolbar.top {
+    margin-top:-15px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    padding:15px;
+}
+.wf-plugin-toolbar.bottom .button{padding:0.3rem 0.75rem; height:auto;}
+.wf-form-table tr th:first-child{ width:20%; text-align:start; padding:20px 10px 20px 0; font-size:14px; vertical-align:top;}
+.wf-form-table tr td:nth-child(2){ width:40%; padding: 15px 10px; vertical-align:middle; }
+.wf-form-table tr td:nth-child(3){ width:40%; }
+
+.wf-form-table{ width:100%; }
+/* copied from bootstrap */
+.wf-form-table input[type="text"], .wf-form-table input[type="number"], .wf-form-table select{
+  display: block;
+  width:100%;
+  padding: 0.35rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
+  height:36px;
+}
+.wf-form-table select{
+  padding: 0.44rem 0.75rem;
+}
+.wf-form-table textarea{
+  display: block;
+  width:100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.wf_settings_form .button {
+  height:auto; 
+}
+.wf_button{ height:34px !important; }
+
+.wf-form-table .button {
+  height: auto; line-height:24px; padding:5px 10px;
+}
+
+/* progress bar */
+.wf_progress_bar{background-color:#f5f5f5; box-shadow:inset 0 1px 2px rgba(0,0,0,.1); float:left; width:100%; height:30px; border-radius:4px; display:none;}
+.wf_progress_bar_inner{ background:#0073aa; height:30px; color:#fff; width:0px; box-shadow:inset 0 -1px 0 rgba(0,0,0,.15); border-radius:4px; text-align:center; line-height:30px; }
+
+.wt_mgdp_list_table{ width:100%; border-spacing:0px; border-collapse:collapse; margin-top:15px;}
+.wt_mgdp_list_table th{ padding:5px 5px; background:#f9f9f9; color:#333; text-align:center; border:solid 1px #e1e1e1; font-weight:bold; }
+.wt_mgdp_list_table td{ padding:5px 5px; background:#fff; color:#000; text-align:center; border:solid 1px #e1e1e1; }
+
+.wt_info_box{ background:#d9edf7; border:solid 1px #bce8f1; padding:10px; width:100%; margin-top:15px; box-sizing:border-box; color:#1c616c; }
+.wt_warn_box{ background:#fff3cd; border:solid 1px #ffeeba; padding:10px; width:100%; margin-top:15px; box-sizing:border-box; color:#866506; }
+.wf-tab-container .button-secondary{ border-color:#ced4da; }

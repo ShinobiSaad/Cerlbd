@@ -1,0 +1,436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Migration Duplicator\n"
+"POT-Creation-Date: 2019-10-31 10:29+0530\n"
+"PO-Revision-Date: 2019-10-31 10:30+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-wp-migration-duplicator-admin.php:109
+#: admin/class-wp-migration-duplicator-admin.php:110
+#, fuzzy
+#| msgid "WordPress Migrator"
+msgid "WordPress Migration"
+msgstr "WordPress Migrator"
+
+#: admin/modules/backups/backups.php:38 admin/modules/backups/backups.php:119
+#: admin/modules/export/export.php:69 admin/modules/export/export.php:615
+#: admin/modules/import/import.php:78 admin/modules/import/import.php:108
+#: admin/modules/import/import.php:301
+msgid "Error"
+msgstr ""
+
+#: admin/modules/backups/backups.php:95 admin/modules/backups/backups.php:101
+#: admin/modules/backups/views/backups.php:26
+#, fuzzy
+#| msgid "Backup"
+msgid "Backups"
+msgstr "Sicherung"
+
+#: admin/modules/backups/backups.php:120 admin/modules/export/export.php:616
+#: admin/modules/import/import.php:302
+msgid "Success"
+msgstr ""
+
+#: admin/modules/backups/backups.php:121 admin/modules/export/export.php:618
+#: admin/modules/import/import.php:304
+msgid "You can't undo this action. Are you sure?"
+msgstr ""
+
+#: admin/modules/backups/backups.php:122 admin/modules/export/export.php:619
+#: admin/modules/import/import.php:305
+msgid "Saving"
+msgstr ""
+
+#: admin/modules/backups/backups.php:123
+msgid "Connecting..."
+msgstr ""
+
+#: admin/modules/backups/views/backups.php:28
+msgid ""
+"Lists the activity log for every export with the option to restore from a "
+"backup or delete the logs that are no longer necessary."
+msgstr ""
+
+#: admin/modules/backups/views/backups.php:35
+msgid "Your backups going larger. Deleting unwanted backups will save space."
+msgstr ""
+
+#: admin/modules/backups/views/backups.php:45
+#: admin/modules/backups/views/backups.php:128
+msgid "File"
+msgstr ""
+
+#: admin/modules/backups/views/backups.php:46
+msgid "Date"
+msgstr "Datum"
+
+#: admin/modules/backups/views/backups.php:47
+#: admin/modules/backups/views/backups.php:129
+msgid "Size"
+msgstr "Größe"
+
+#: admin/modules/backups/views/backups.php:48
+msgid "Status"
+msgstr ""
+
+#: admin/modules/backups/views/backups.php:49
+msgid "Actions"
+msgstr "Aktionen"
+
+#: admin/modules/backups/views/backups.php:84
+msgid "File not found"
+msgstr ""
+
+#: admin/modules/backups/views/backups.php:104
+msgid "Delete"
+msgstr ""
+
+#: admin/modules/backups/views/backups.php:109
+msgid "No backups found."
+msgstr ""
+
+#: admin/modules/backups/views/backups.php:123
+msgid ""
+"Archived files in the backup directory, that are not in our backup list."
+msgstr ""
+
+#: admin/modules/export/export.php:48
+#, fuzzy
+#| msgid "Export"
+msgid "Goto Export"
+msgstr "Exportieren"
+
+#: admin/modules/export/export.php:111
+msgid "Export completed"
+msgstr ""
+
+#: admin/modules/export/export.php:191
+msgid ""
+"Unable to create backup directory. Please check write permission for `wp-"
+"content` folder."
+msgstr ""
+
+#: admin/modules/export/export.php:316
+msgid " file(s) exported."
+msgstr ""
+
+#: admin/modules/export/export.php:350 admin/modules/export/export.php:550
+msgid " out of "
+msgstr ""
+
+#: admin/modules/export/export.php:391
+msgid "Exporting files and directories"
+msgstr ""
+
+#: admin/modules/export/export.php:551
+#, fuzzy
+#| msgid "Importing Database..."
+msgid "Exporting database"
+msgstr "Datenbank importieren ..."
+
+#: admin/modules/export/export.php:599
+#: admin/modules/export/views/exporter.php:17
+#: admin/modules/export/views/exporter.php:90
+msgid "Export"
+msgstr "Exportieren"
+
+#: admin/modules/export/export.php:617 admin/modules/import/import.php:303
+msgid "Finished"
+msgstr ""
+
+#: admin/modules/export/export.php:620
+msgid "Connecting"
+msgstr ""
+
+#: admin/modules/export/export.php:621
+msgid "Stopped"
+msgstr ""
+
+#: admin/modules/export/export.php:622
+msgid "Stopping"
+msgstr ""
+
+#: admin/modules/export/export.php:623
+msgid "Failed to stop export"
+msgstr ""
+
+#: admin/modules/export/export.php:624
+msgid "Start new export"
+msgstr ""
+
+#: admin/modules/export/views/exporter.php:19
+msgid ""
+"Generates a complete dump of the wp-contents in a zip format. You can also "
+"replace the text within the database file to match the destination for a "
+"smooth import."
+msgstr ""
+
+#: admin/modules/export/views/exporter.php:22
+msgid "Read more"
+msgstr ""
+
+#: admin/modules/export/views/exporter.php:68
+msgid "Find"
+msgstr "Suchen"
+
+#: admin/modules/export/views/exporter.php:71
+msgid "Replace with"
+msgstr "Ersetzen durch"
+
+#: admin/modules/export/views/exporter.php:74
+msgid "Add new row"
+msgstr ""
+
+#: admin/modules/export/views/exporter.php:77
+msgid "Delete row"
+msgstr ""
+
+#: admin/modules/export/views/exporter.php:91
+#, fuzzy
+#| msgid "Support"
+msgid "Stop export"
+msgstr "Unterstützen"
+
+#: admin/modules/import/import.php:47
+msgid ""
+"Restoring from backup will overwrite all files in the system, including the "
+"existing backups. It will basically take you to the system state at the time "
+"of backup file."
+msgstr ""
+
+#: admin/modules/import/import.php:49
+msgid "Do not restore unless you are sure about what you are doing."
+msgstr ""
+
+#: admin/modules/import/import.php:64
+msgid "Restore"
+msgstr ""
+
+#: admin/modules/import/import.php:73
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/modules/import/import.php:132 admin/modules/import/import.php:223
+msgid "Import completed."
+msgstr ""
+
+#: admin/modules/import/import.php:153
+msgid "Database backup file is missing. Unable to import database"
+msgstr ""
+
+#: admin/modules/import/import.php:165
+msgid "Unable to connect to database."
+msgstr ""
+
+#: admin/modules/import/import.php:212
+msgid "Database import failed."
+msgstr ""
+
+#: admin/modules/import/import.php:218
+msgid "Database import done with errors."
+msgstr ""
+
+#: admin/modules/import/import.php:222
+msgid "Database imported."
+msgstr ""
+
+#: admin/modules/import/import.php:245
+msgid "Please upload Zip file"
+msgstr "Bitte laden Sie eine ZIP-Datei hoch"
+
+#: admin/modules/import/import.php:257 admin/modules/import/import.php:258
+#, fuzzy
+#| msgid "Importing Database..."
+msgid "Importing database...."
+msgstr "Datenbank importieren ..."
+
+#: admin/modules/import/import.php:258
+#, fuzzy
+#| msgid "Files and Folders Imported"
+msgid "Files imported."
+msgstr "Dateien und Ordner importiert"
+
+#: admin/modules/import/import.php:275 admin/modules/import/import.php:281
+#: admin/modules/import/views/importer.php:17
+#: admin/modules/import/views/importer.php:53
+msgid "Import"
+msgstr "Importieren"
+
+#: admin/modules/import/import.php:306
+msgid "Connecting...."
+msgstr ""
+
+#: admin/modules/import/import.php:307
+#, fuzzy
+#| msgid "Please upload Zip file"
+msgid "Please upload a backup file."
+msgstr "Bitte laden Sie eine ZIP-Datei hoch"
+
+#: admin/modules/import/import.php:308
+#, fuzzy
+#| msgid "Please upload Zip file"
+msgid "Please upload a zip file."
+msgstr "Bitte laden Sie eine ZIP-Datei hoch"
+
+#: admin/modules/import/views/importer.php:18
+msgid ""
+"Import data via a zip file(containing data from the server to be migrated)."
+msgstr ""
+
+#: admin/modules/import/views/importer.php:33
+#, fuzzy
+#| msgid "Please upload Zip file"
+msgid "Upload backup file"
+msgstr "Bitte laden Sie eine ZIP-Datei hoch"
+
+#: admin/modules/import/views/importer.php:40
+msgid ""
+"Bypass upload limit: Cases where your server upload limit is smaller than "
+"the size of the file to be imported, follow below steps."
+msgstr ""
+
+#: admin/modules/import/views/importer.php:42
+msgid ""
+"First upload a small zip file into media library and replace that file "
+"through FTP with actual backup zip."
+msgstr ""
+
+#: admin/modules/import/views/importer.php:43
+msgid "Choose this file from media by clicking on the Upload button."
+msgstr ""
+
+#: admin/modules/import/views/importer.php:44
+msgid "Then click on import to process the file."
+msgstr ""
+
+#: admin/modules/import/views/importer.php:54
+msgid "Start new import"
+msgstr ""
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:39
+msgid "I couldn't understand how to make it work"
+msgstr "Ich habe nicht verstanden, wie es funktioniert"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:41
+msgid "Would you like us to assist you?"
+msgstr "Möchtest Du Hilfe?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:45
+msgid "I found a better plugin"
+msgstr "Ich fand ein besseres Plugin"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:47
+msgid "Which plugin?"
+msgstr "Welches Plugin?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:51
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Das Plugin ist großartig, aber ich brauche besondere Funktionen, die das "
+"PlugIn nicht bietet"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:53
+msgid "Could you tell us more about that feature?"
+msgstr "Können Sie uns mehr über dieses Feature erzählen?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:57
+msgid "The plugin is not working"
+msgstr "Das PlugIn funktioniert nicht"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:59
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Können Sie uns mehr dazu sagen, was nicht funktioniert?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:63
+msgid "It's not what I was looking for"
+msgstr "Es ist nicht das, was ich suchte"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:69
+msgid "The plugin didn't work as expected"
+msgstr "Das PlugIn funktioniert nicht wie erwartet"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:71
+msgid "What did you expect?"
+msgstr "Was haben Sie erwartet?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:75
+msgid "Other"
+msgstr "Sonstiges"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:77
+msgid "Could you tell us a bit more?"
+msgstr "Könnten Sie uns noch etwas mehr erzählen?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:96
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+"Wenn Du einen Moment Zeit hast, lass uns wissen, warum Du das Plugin "
+"deaktivieren möchtest:"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:106
+msgid "I rather wouldn't say"
+msgstr "Ich würde das lieber nicht sagen"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:109
+#, fuzzy
+#| msgid "Support"
+msgid "Go to support"
+msgstr "Unterstützen"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:110
+msgid "Submit & Deactivate"
+msgstr "Absenden & Deaktivieren"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:111
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin/partials/wp-migration-duplicator-admin-display.php:19
+msgid "WordPress Migrator"
+msgstr "WordPress Migrator"
+
+#~ msgid "Wordpress mported successfully"
+#~ msgstr "Wordpress wurde erfolgreich importiert"
+
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Review"
+#~ msgstr "Bewertung"
+
+#~ msgid "Backup Now"
+#~ msgstr "Jetzt sichern"
+
+#~ msgid "Progress"
+#~ msgstr "Fortschritt"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "text"
+#~ msgstr "text"
+
+#~ msgid "Replace the database with this text"
+#~ msgstr "Die Datenbank mit diesem Text ersetzen"
+
+#~ msgid "another text"
+#~ msgstr "ein weiterer text"
+
+#~ msgid "in the database"
+#~ msgstr "in der Datenbank"
+
+#~ msgid "Select Migration File"
+#~ msgstr "Migrationsdatei auswählen"
+
+#~ msgid "Upload Migration Package"
+#~ msgstr "Migrationspaket hochladen"

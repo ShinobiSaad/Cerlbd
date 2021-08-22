@@ -1,0 +1,8 @@
+footer {
+  background-color: #fff;
+}
+
+.nv-footer-content .footer-menu {
+  justify-content: center;
+  @include horizontal-list($spacing-xs, 'true');
+}
